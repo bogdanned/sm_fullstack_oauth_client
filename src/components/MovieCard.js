@@ -3,7 +3,7 @@ import React from "react";
 const MovieCard = ({ movie }) => {
   console.log(movie);
   return (
-    <div className="card" style={{ width: "9rem" }}>
+    <div className="card" style={{ width: "18rem" }}>
       <img
         className="card-img-top"
         src={movie.poster_path}

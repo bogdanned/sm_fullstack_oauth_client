@@ -8,10 +8,10 @@ const Hero = () => {
   const { isAuthenticated } = useAuth0();
 
   return (
-    <div className="text-center hero my-5">
-      <h1 className="mb-4">Movie App Demo</h1>
-
+    <div className="container">
       <div className="container">
+        <h1 className="mb-4">Movie App Demo</h1>
+
         {isAuthenticated ? (
           <MovieListContainer></MovieListContainer>
         ) : (
